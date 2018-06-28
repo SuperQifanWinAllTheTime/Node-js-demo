@@ -16,7 +16,6 @@ var express=require('express')
 var app=express()
 var path=require('path')
 app.use(express.static(path.join(__dirname,'public')))
-app.use(express.static(path.join(__dirname,'picture')))
 app.use(express.static(path.join(__dirname,'views')))
 app.set('view engine','ejs');
 
@@ -79,12 +78,6 @@ app.get('/search',function(req,res){
   		});
 	});
 });
-
-app.get('/about',function(req,res){
-	res.render('pages/index-old')
-});
-
-
 app.listen(8080);
 console.log('now listen to port 8080');
 
