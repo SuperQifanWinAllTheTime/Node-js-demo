@@ -33,12 +33,12 @@ After the server get the request<br>
 The server will render to corresponding functoin<br>
 Then insert to databse by function <br>
 If success, it will render to a complete page<br>
-Insert page:<br>
-![507fb8c6465769c0434b654bfc4abda](https://user-images.githubusercontent.com/15969187/42065357-8028e4e6-7b08-11e8-8621-62b190c39b5a.png)
-Complete page:<br>
-![f6455360804e257abc15481619f722f](https://user-images.githubusercontent.com/15969187/42065358-8267fa80-7b08-11e8-8088-4df6840082f7.png)
-mongodb view:<br>
-![4d1338accbe4fad19c7fe4c471ec91d](https://user-images.githubusercontent.com/15969187/42065359-8430fb8c-7b08-11e8-8852-be12a1fe9ec1.png)
+### Insert page:<br>
+![507fb8c6465769c0434b654bfc4abda](https://user-images.githubusercontent.com/15969187/42065357-8028e4e6-7b08-11e8-8621-62b190c39b5a.png)<br>
+### Complete page:<br>
+![f6455360804e257abc15481619f722f](https://user-images.githubusercontent.com/15969187/42065358-8267fa80-7b08-11e8-8088-4df6840082f7.png)<br>
+### mongodb view:<br>
+![4d1338accbe4fad19c7fe4c471ec91d](https://user-images.githubusercontent.com/15969187/42065359-8430fb8c-7b08-11e8-8852-be12a1fe9ec1.png)<br>
 
 
 ## search
@@ -49,10 +49,10 @@ After the server get the request<br>
 The server will render to corresponding functoin<br>
 Then search in databse by function <br>
 If success, it will render to a result page<br>
-Search Page:<br>
-![3b2554e43b60d4cbd8db7d00520e446](https://user-images.githubusercontent.com/15969187/42065413-c72638ee-7b08-11e8-90ad-0c5d8ef0d63d.png)
-Result Page:<br>
-![a5978be15a1bbacb1d6083220385a6b](https://user-images.githubusercontent.com/15969187/42065415-c8111102-7b08-11e8-8263-d6ca8baf95f0.png)
+### Search Page:<br>
+![3b2554e43b60d4cbd8db7d00520e446](https://user-images.githubusercontent.com/15969187/42065413-c72638ee-7b08-11e8-90ad-0c5d8ef0d63d.png)<br>
+### Result Page:<br>
+![a5978be15a1bbacb1d6083220385a6b](https://user-images.githubusercontent.com/15969187/42065415-c8111102-7b08-11e8-8263-d6ca8baf95f0.png)<br>
 
 ## Dashboard
 A basic static dashboard that allow user view and operate 
