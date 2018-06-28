@@ -55,4 +55,6 @@ If success, it will render to a result page<br>
 ![a5978be15a1bbacb1d6083220385a6b](https://user-images.githubusercontent.com/15969187/42065415-c8111102-7b08-11e8-8263-d6ca8baf95f0.png)<br>
 
 ## Dashboard
-A basic static dashboard that allow user view and operate 
+A basic static dashboard that allow user view and operate <br>
+### demo:
+![50f3dfca28ee8d77469d688b38e64a7](https://user-images.githubusercontent.com/15969187/42065495-2a967f4c-7b09-11e8-9928-f6ec51b02136.png)
