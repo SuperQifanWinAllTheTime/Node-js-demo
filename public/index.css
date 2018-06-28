@@ -1,0 +1,118 @@
+.sidebar{
+	height:100%;
+	width:200px;
+	background-color:#fff;
+	position:fixed!important;
+	z-index:1;
+	overflow:auto
+}
+.collapse{
+	display:block!important
+}
+.white,.hover-white:hover{
+	color:#000!important;
+	background-color:#fff!important
+}
+.animate-left{
+	position:relative;
+	animation:animateleft 0.4s
+}
+.container{
+	padding:0.01em 16px
+}
+.row:after,.row:before,.row{
+	content:"";
+	display:table;
+	clear:both
+}
+.col{
+	float:left;
+	width:100%
+}
+.s3{
+	width:33.33333%
+}
+.s6{
+	width:66.66666%
+}
+.bar-item{
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	display:block;
+	outline:0
+}
+.button{
+	border:none;
+	display:inline-block;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	cursor:pointer;
+	white-space:nowrap
+}
+.bar-block{
+	width:100%;
+	text-align:left;
+	padding:8px 16px
+}
+.padding{
+	padding:8px 16px!important
+}
+.lightblue{
+	color:#000!important;
+	background-color:#87CEEB!important
+}
+.grey{
+	color:#000!important;
+	background-color:#9e9e9e!important
+}
+.center{
+	text-align:center
+}
+.green{
+	color:#fff!important;
+	background-color:#4CAF50!important
+}
+.m16{
+	width:16.66666%
+}
+.m83{
+	width:83.33333%
+}
+.opacity{
+	opacity:0.75
+}
+.col{
+	float:left;
+	width:100%
+}
+.medium{
+	font-size:15px!important
+}
+.bar{
+	width:100%;
+	overflow:hidden
+}
+/*front from google */
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyCMIT5lu.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ITw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
