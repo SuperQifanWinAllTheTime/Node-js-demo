@@ -32,7 +32,14 @@ The url will sent a quest to the server<br>
 After the server get the request<br>
 The server will render to corresponding functoin<br>
 Then insert to databse by function <br>
-If success, it will render to a complete page
+If success, it will render to a complete page<br>
+Insert page:<br>
+![507fb8c6465769c0434b654bfc4abda](https://user-images.githubusercontent.com/15969187/42065357-8028e4e6-7b08-11e8-8621-62b190c39b5a.png)
+Complete page:<br>
+![f6455360804e257abc15481619f722f](https://user-images.githubusercontent.com/15969187/42065358-8267fa80-7b08-11e8-8088-4df6840082f7.png)
+mongodb view:<br>
+![4d1338accbe4fad19c7fe4c471ec91d](https://user-images.githubusercontent.com/15969187/42065359-8430fb8c-7b08-11e8-8852-be12a1fe9ec1.png)
+
 
 ## search
 Process:<br>
