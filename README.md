@@ -48,6 +48,11 @@ The url will sent a quest to the server<br>
 After the server get the request<br>
 The server will render to corresponding functoin<br>
 Then search in databse by function <br>
-If success, it will render to a result page
+If success, it will render to a result page<br>
+Search Page:<br>
+![3b2554e43b60d4cbd8db7d00520e446](https://user-images.githubusercontent.com/15969187/42065413-c72638ee-7b08-11e8-90ad-0c5d8ef0d63d.png)
+Result Page:<br>
+![a5978be15a1bbacb1d6083220385a6b](https://user-images.githubusercontent.com/15969187/42065415-c8111102-7b08-11e8-8263-d6ca8baf95f0.png)
+
 ## Dashboard
 A basic static dashboard that allow user view and operate 
