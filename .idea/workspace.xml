@@ -20,6 +20,11 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Locohost/demo/document" pinned="false" current-in-tab="false">
+        <entry file="mongo://Locohost/demo/document">
+          <provider selected="true" editor-type-id="MongoData" />
+        </entry>
+      </file>
       <file leaf-file-name="Locohost/demo/document" pinned="false" current-in-tab="true">
         <entry file="mongo://Locohost/demo/document">
           <provider selected="true" editor-type-id="MongoData" />

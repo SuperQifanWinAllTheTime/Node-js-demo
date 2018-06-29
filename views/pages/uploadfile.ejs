@@ -33,8 +33,9 @@
     <div class="container">
 <form action="/fileupload" method="post" enctype="multipart/form-data">
 <a class="a-upload">Select File
-<input type="file" value="Select File" name="filetoupload" style="opacity: 0">
+<input type="file" id="fileInput" value="Select File" name="filetoupload" multiple onchange="showname()" style="opacity: 0" >
 </a>
+<p id= "display_file"></p>
 <br>
 <a class="a-upload">Submite
 <input type="submit" value="submit">
@@ -43,5 +44,13 @@
 </div>
 </div>
 </body>
-
+<script type="text/javascript">
+    function showname () {
+      var name = document.getElementById('fileInput'); 
+      document.getElementById("display_file").innerHTML = "File name: "+ name.files.item(0).name+ "<br> File Size: "+ name.files.item(0).size +"<br> File Type: "+name.files.item(0).type;
+      //alert('Selected file: ' + name.files.item(0).name);
+     // alert('Selected file: ' + name.files.item(0).size);
+      //alert('Selected file: ' + name.files.item(0).type);
+    };
+</script>>
 </html>
