@@ -57,7 +57,12 @@ If success, it will render to a result page<br>
 now user are able to upload a file thorugh up load file page<br>
 ![image](https://user-images.githubusercontent.com/15969187/42103403-f51525ba-7b96-11e8-803e-14b238c54399.png)<br>
 after user hit submit button<br>
-
+at server side :<br>
+![image](https://user-images.githubusercontent.com/15969187/42103542-655ea580-7b97-11e8-878d-288c8201f09e.png)<br>
+file will store in to corresponding files<br>
+![image](https://user-images.githubusercontent.com/15969187/42103553-6bf6f9ba-7b97-11e8-9a54-64ca35bff225.png)<br>
+also will store a information about the file into database<br>
+![image](https://user-images.githubusercontent.com/15969187/42103554-6d7b027c-7b97-11e8-9272-b363aeeac03b.png)<br>
 
 
 ## Dashboard
