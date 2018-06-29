@@ -17,6 +17,8 @@ var app=express()
 var path=require('path')
 app.use(express.static(path.join(__dirname,'public')))
 app.use(express.static(path.join(__dirname,'views')))
+var busboy = require('connect-busboy');
+app.use(busboy()); 
 app.set('view engine','ejs');
 
 app.get('/',function(req,res){
@@ -52,7 +54,9 @@ app.get('/insert', function(req,res){
 app.get('/find',function(req,res){
 	res.render('pages/search')
 });
-
+app.get('/uploadfile',function(req,res){
+	res.render('pages/uploadfile')
+});
 
 //var search = require('./search');
 app.get('/search',function(req,res){
@@ -78,6 +82,56 @@ app.get('/search',function(req,res){
   		});
 	});
 });
+
+var formidable = require('formidable');
+var fs=require('fs');
+app.post('/fileupload',function(req,res){
+	var fstream;
+	var filenamereturn; 
+    req.pipe(req.busboy);
+    filenamereturn=req.busboy.on('file', function (fieldname, file, filename) {
+    	filenamereturn = filename;
+        console.log("Uploading: " + filename); 
+        fstream = fs.createWriteStream('C:/data/db/' + filename);
+        file.pipe(fstream);
+		var MongoClient = require('mongodb').MongoClient;
+		var url = "mongodb://localhost:27017/";
+
+		MongoClient.connect(url, function(err, db) {
+  		if (err) throw err;
+  		var dbo = db.db("demo");
+  		var myobj ={document : filename, url :'C:/data/db/' + filename };
+  		dbo.collection("document").insertOne(myobj, function(err, res) {
+    	if (err) throw err;
+    	console.log("1 document inserted");
+    	db.close();
+    
+  			});	
+
+  		});
+        fstream.on('close', function () {
+        });
+        return filenamereturn;
+    });
+    
+   // console.log(filenamereturn);
+   //callback( console.log(filenamereturn));
+    res.render('pages/index')
+    //res.render('pages/uploadcomplete',{filename : filenamereturn})
+/*
+var form = new formidable.IncomingForm();
+    form.parse(req, function (err, fields, files) {
+      var oldpath = files.filetoupload.path;
+      var newpath = 'C:/data/db/' + files.filetoupload.name;
+      fs.rename(oldpath, newpath, function (err) {
+      if (err) throw err;      
+      console.log("1 file uploaded");
+      });
+    });
+    */
+      
+});
+
 app.listen(8080);
 console.log('now listen to port 8080');
 
