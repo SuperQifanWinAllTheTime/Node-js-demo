@@ -53,6 +53,8 @@ If success, it will render to a result page<br>
 ![3b2554e43b60d4cbd8db7d00520e446](https://user-images.githubusercontent.com/15969187/42065413-c72638ee-7b08-11e8-90ad-0c5d8ef0d63d.png)<br>
 ### Result Page:<br>
 ![a5978be15a1bbacb1d6083220385a6b](https://user-images.githubusercontent.com/15969187/42065415-c8111102-7b08-11e8-8263-d6ca8baf95f0.png)<br>
+## upload
+now user are able to upload a file thorugh up load file page
 
 ## Dashboard
 A basic static dashboard that allow user view and operate <br>
